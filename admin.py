@@ -4,7 +4,7 @@ import pandas as pd
 from io import BytesIO
 
 # Admin password (use env vars in production)
-ADMIN_PASSWORD = "######"
+ADMIN_PASSWORD = "#######"
 
 st.title("🔒 Admin Panel")
 password = st.text_input("Enter admin password:", type="password")
