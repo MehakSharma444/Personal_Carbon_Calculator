@@ -37,5 +37,3 @@ if password == ADMIN_PASSWORD:
 
 elif password:
     st.error("Incorrect password.")
-
-
